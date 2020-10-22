@@ -1,3 +1,3 @@
 def calcula_dedutor(qtd_dependentes):
     valor_por_dependente = 189.59
-    return valor_por_dependente*qtd_dependentes
+    return round(valor_por_dependente*qtd_dependentes,2)
